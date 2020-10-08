@@ -3,6 +3,7 @@ $input1 = ["Ayo", "Belajar"];
 $input2 = ["Bersama", "Niomic"];
 
 echo "<br>";
+echo "<h1>Operator String</h1>";
 echo "<table width = 500 border =1 >
 		<tr align=center>
 			<td>Input 1</td>
@@ -20,4 +21,6 @@ echo "<table width = 500 border =1 >
 			<td>".$input1[1]." ".$input2[1]."</td>
 		</tr>
 		<table>";
+
+echo "<br> Gabungan : " .$input1[0]." ".$input2[0]." ".$input1[1]." ".$input2[1];
 ?>
